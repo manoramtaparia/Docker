@@ -1,4 +1,4 @@
-FROM maven:3.3-jdk-8
+FROM maven:latest
 COPY . /src
 WORKDIR /src
 RUN ["mvn", "package"]
